@@ -1,0 +1,117 @@
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15rem;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.top-central {
+display: flex;
+flex-direction: row;
+gap: 1rem;
+border-radius: 0.8rem;
+}
+
+.header-left {
+    background-color: gray;
+    height: 10vh;
+    width: 30%;
+    border-radius: 0.8rem;
+}
+
+.header-right {
+    background-color: cyan;
+    height: 10vh;
+    width: 70%;
+    border-radius: 0.8rem;
+}
+.central {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    border-radius: 0.8rem;
+
+}
+.mid-left {
+    display: flex;
+    flex-direction: row;
+    background-color: cyan;
+    height: 25vh;
+    width: 20%;
+    border-radius: 2rem;
+}
+.mid-center {
+    background-color: pink ;
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+    width: 20%;
+    border-radius: 2rem;
+}
+.mid-right {
+  background-color: cyan ;
+  display: flex;
+  flex-direction: row;
+  height: 25vh;
+  width: 20%;
+  border-radius: 2rem;
+}
+.footer {
+    background-color: gray;
+    height: 10vh;
+    border-radius: 2rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 80%;
+  background-color: rgb(177, 166, 166);
+  border-radius: 2rem;
+  padding: 0.8rem;
+}
